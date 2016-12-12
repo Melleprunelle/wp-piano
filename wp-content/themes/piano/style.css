@@ -8,10 +8,32 @@
 #FFA000 -> #FFBC4C
 */
 
+@font-face {
+    font-family: 'moonbold';
+    src: url('fonts/moon_bold-webfont.woff2') format('woff2'),
+         url('fonts/moon_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moonlight';
+    src: url('fonts/moon_light-webfont.woff2') format('woff2'),
+         url('fonts/moon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     background-color: #090909;
     color: whitesmoke;
+    font-family: 'moonlight', sans-serif;
+}
+
+.container {
+    display: flex;
 }
 
 h1, h2, h3, h4, h5, h6, a {
@@ -19,9 +41,9 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 
-/* ==========================================================================
+/* =====================================================
    NAVBAR
-   ========================================================================== */
+   ===================================================== */
 
 .menu-top-container {
     display: flex;
@@ -29,11 +51,31 @@ h1, h2, h3, h4, h5, h6, a {
     align-items: center;
     width: 100%;
     height: 100px;
-    background-color: red;
+    background-color: #090909;
     padding-left: 0px;
 }
 
 .menu-top-container ul li {
     display: inline-block;
+    padding: 5px;
+    font-family: "moonlight";
+}
+
+.menu-top-container ul a {
+    text-decoration: none;
     padding: 20px;
+    color: whitesmoke;
+    border: 1px solid #555555;
+}
+
+.menu-top-container ul a:hover {
+    border: 0;
+}
+
+/* =====================================================
+   INDEX
+   ===================================================== */
+
+.home {
+    width: 70%;
 }
