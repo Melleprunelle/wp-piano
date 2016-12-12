@@ -34,7 +34,7 @@
     <!-- menu de navigation -->
     <?php wp_nav_menu(array('theme_location' => 'Top')); ?>
     
-    <div class="navbar" id="header" style='background-image:url(<?php header_image(); ?>)'>
+    <div id="header" style='background-image:url(<?php header_image(); ?>)'>
         <div class="shadow">
             <!-- LOGO -->
             <div class="logo"></div>
