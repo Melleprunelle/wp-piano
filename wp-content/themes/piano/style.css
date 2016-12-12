@@ -8,10 +8,6 @@
 #FFA000 -> #FFBC4C
 */
 
-body {
-    margin: 0;
-}
-
 @font-face {
     font-family: 'moonbold';
     src: url('fonts/moon_bold-webfont.woff2') format('woff2'),
@@ -27,13 +23,27 @@ body {
          url('fonts/moon_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+body {
+    margin: 0;
+    background-color: #090909;
+    color: whitesmoke;
+    font-family: 'moonlight', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: #FFA000;
 }
 
 
-/* ==========================================================================
+/* =====================================================
    NAVBAR
-   ========================================================================== */
+   ===================================================== */
 
 .menu-top-container {
     display: flex;
@@ -66,3 +76,11 @@ body {
 /* ==========================================================================
    SIDEBAR
    ========================================================================== */
+
+/* =====================================================
+   INDEX
+   ===================================================== */
+
+.home {
+    width: 70%;
+}
