@@ -9,7 +9,13 @@
 */
 
 body {
-    margin: 0 !important;
+    margin: 0;
+    background-color: #090909;
+    color: whitesmoke;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: #FFA000;
 }
 
 

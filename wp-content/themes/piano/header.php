@@ -43,12 +43,6 @@
             <h1><?php bloginfo('name'); ?></h1>
             <p><?php bloginfo('description'); ?></p>
             
-            <!-- icones réseaux sociaux -->
-            <div class="social-icons">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                <i class="fa fa-google-plus" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-            </div>
         </div>
     </div>
 </div>
