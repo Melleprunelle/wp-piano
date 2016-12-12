@@ -27,7 +27,8 @@
 
 body {
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #cacaca;
+    background-image: url(images/ps_neutral.png);
     color: whitesmoke;
     font-family: sans-serif;
 }
@@ -147,7 +148,7 @@ margin: 0;
 .home {
     margin: 50px;
     background-color: #A2A2A2;
-    box-shadow: 0 0 13px #8e8e8e;
+    box-shadow: 0 0 13px lightgrey;
 }
 
 .description {
@@ -172,15 +173,16 @@ margin: 0;
 .description-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     background-color: whitesmoke;
     color: #222;
 }
 
-.description-content p {
-    padding: 25px 25px 0 25px;
+.description-content p:first-child, .description-content p:last-child {
+    padding: 0 25px;
+    line-height: 20px;
 }
 
-.description-content p:last-child {
-    padding-bottom: 25px;
+.description-content p {
+    padding: 25px;
 }
