@@ -202,3 +202,30 @@ p {
 .description-content p {
     padding: 25px;
 }
+
+/* ==================================================
+   ICONS CONCERT EVENT
+   ================================================== */
+#vsel .vsel-meta-date:before {
+    content: "\f133";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+#vsel .vsel-meta-time:before {
+    content: "\f017";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+#vsel .vsel-meta-location:before {
+    content: "\f041";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+#vsel .vsel-meta-link:before {
+    content: "\f145";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+#vsel .vsel-meta-link a, #vsel .vsel-meta-link {
+    color: #FFA000;
+}
