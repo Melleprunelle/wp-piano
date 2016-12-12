@@ -45,6 +45,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6, a {
     font-family: 'moonlight', sans-serif;
+    color: #FFA000;
 }
 
 p {
@@ -66,6 +67,7 @@ p {
     padding-top: 100px;
     font-size: 50px;
     font-family: "moonbold";
+    color: #FFA000;
 }
 
 .shadow p {
@@ -160,6 +162,7 @@ p {
 }
 
 .home {
+    height: 400px;
     margin: 50px;
     background-color: #A2A2A2;
     box-shadow: 0 0 13px lightgrey;
@@ -167,13 +170,12 @@ p {
 
 .description {
     display: flex;
-    height: 100%;
+    height: 400px;
 }
 
 .description div {
     width: 50%;
     min-width: 50%;
-    height: 100%;
 }
 
 .the-artist img {
