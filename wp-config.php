@@ -25,7 +25,7 @@ define('DB_NAME', 'wppiano');
 define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'iamj');
+define('DB_PASSWORD', 'facesimplon');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
